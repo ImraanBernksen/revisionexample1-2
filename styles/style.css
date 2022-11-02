@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lime;
+}
+
+ul li:nth-child(1) {
+    background-color: darkgray;
+}
+
+p::before {
+    content: '1';
+}
+
+p::first-letter {
+
+}
+
+main {
+    background-color: blue;
+}
+
+footer {
+    background-color: red;
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    background-color: yellow;
+}
